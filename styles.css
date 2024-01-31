@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+    font-family: Arimo;
+    font-weight: 600;
+}
+
+div {
+    padding-bottom: 5px;
+}
+
+.uber {
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.uber:hover {
+    background-color: rgb(53, 53, 53);
+    transition-duration: 0.5s;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.amazon:hover {
+    background-color: rgb(238, 199, 3);
+    transition-duration: 0.5s;
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+}
+
+.github:hover {
+    box-shadow: 1px 1px 10px 1px rgb(193, 193, 193);
+}
+
+.bootstrap {
+    background-color: rgb(121, 89, 179);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.bootstrap:hover {
+    background-color: rgb(104, 77, 154);
+    transition-duration: 0.5s;
+}
+
+.bootstrap2 {
+    background-color: rgb(247, 247, 247);
+    color: rgb(110, 110, 110);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(110, 110, 110);
+    cursor: pointer;
+}
+
+.bootstrap2:hover {
+    background-color: rgb(131, 131, 131);
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.linkedin {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-color: rgb(2, 68, 134);
+    transition-duration: 0.5s;
+}
+
+.linkedin2 {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.linkedin2:hover {
+    border: 1px solid rgb(10, 102, 194);
+    transition-duration: 0.1s;
+    border-width: 2px;
+    background-color: rgb(229, 232, 250);
+    
+}
+
+.price {
+    color: rgb(0, 118, 0);
+}
+
+.back-to-amazon:hover {
+    color: rgb(255, 115, 0);
+    transition-duration: 0.5s;
+}
+
+.amazon1 {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.amazon1:hover {
+    background-color: rgb(238, 199, 3);
+    transition-duration: 0.5s;
+}
+
+.amazon1:active {
+    transition-duration: 0.5s;
+    opacity: 0.5;
+}
+
+.amazon2 {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.amazon2:hover {
+    background-color: rgb(235, 146, 12);
+    transition-duration: 0.5s;
+}
+
+.amazon2:active {
+    transition-duration: 0.5s;
+    opacity: 0.5;
+}
